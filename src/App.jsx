@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -18,7 +16,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Hi kaam chalu karlo
+        Test push
       </p>
     </>
   )
