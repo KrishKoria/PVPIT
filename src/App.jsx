@@ -16,7 +16,7 @@ import ProductReviews from "./components/ProductReviews.jsx"
 // import Videos from "./components/Videos.js"
 import Banner from "./components/Banner.jsx"
 import Footer from "./components/Footer.jsx"
-// import NavOptios from "./components/NavOptios.jsx"
+import NavOptios from "./components/NavOptios.jsx"
 
 
 
