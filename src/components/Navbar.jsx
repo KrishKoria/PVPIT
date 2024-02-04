@@ -15,7 +15,6 @@ const Navbar = () => {
              </a>
 
              </div>
-
              <a  className="navlinks" href="/#miphones">Mi Phones</a>
            <a   className="navlinks"  href="/#redmiphones">Redmi Phones</a>
            <a   className="navlinks" href="/#tv">TV</a>
