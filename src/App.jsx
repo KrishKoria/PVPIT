@@ -2,7 +2,7 @@
 
 
 import './App.css';
-import PreNavbar from './components/PreNavbar';
+// import PreNavbar from './components/PreNavbar';
 import Navbar from "./components/Navbar.jsx"
 import {  BrowserRouter as Router,Route,Routes } from "react-router-dom"
 import Slider from "./components/Slider.jsx"
@@ -24,7 +24,7 @@ function App() {
 
   return (
   <Router>
-       <PreNavbar/>
+       {/* <PreNavbar/> */}
        <Navbar />
             
         <NavOptios miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle} home={data.home} audio={data.audio}  accessories={data.accessories}/>
