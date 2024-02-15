@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="nav">
       <div className="logo">
-        <a href="/">
+        <a href="/PVPIT/">
           <img id="logoImage" src={logo} width={"112px"} height={"56px"} />
         </a>
       </div>
