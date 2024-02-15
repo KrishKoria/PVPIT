@@ -15,6 +15,15 @@
 
 }
 
+.para {
+  font-size: 15px;
+}
+
+.hed {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
 .footer > div:nth-child(2){
     display: block;
 }
@@ -93,12 +102,19 @@ fill: rgb(34, 34, 34);
     color: rgb(19, 18, 18);
 }
 
+.social svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  fill: rgb(222, 203, 203); /* Default icon fill color */
+}
 
-.PreFooter svg{
-   transform: scale(2) translateY(-0.2vmax);
-   fill: rgba(37, 37, 37, 0.322);
-  margin: 2vmax;
+.social a:hover {
+  color: rgb(22, 137, 244); /* Color on hover */
+}
 
+.social a:hover svg {
+  fill: rgb(0, 166, 255); /* Fill color on hover */
 }
 
 

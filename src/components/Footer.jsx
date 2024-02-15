@@ -1,5 +1,4 @@
 import React from "react";
-// import "../styles/PreFooter.css"
 import "../styles/Footer.css";
 
 const youtubeIcon = (
@@ -49,47 +48,74 @@ const instagramIcon = (
   </svg>
 );
 
-const Footer = ({ footer }) => {
+const Footer = (props) => {
   return (
-    <>
-      <div className="PreFooter2">
-        <div>
-          <p>LET'S STAY IN TOUCH</p>
-          <span>Get updates on sales specials and more</span>
-        </div>
-        <div>
+    console.log(props),
+    (
+      <>
+        <div className="PreFooter2">
           <div>
-            <input
-              type="email"
-              name="email"
-              placeholder="Enter Email Address"
-            />
-            <button>Submit</button>
+            <p>LET'S STAY IN TOUCH</p>
+            <span>Get updates on sales specials and more</span>
           </div>
-          <span>Thanks. You're on our mailing list.</span>
+          <div>
+            <div>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Email Address"
+              />
+              <button>Submit</button>
+            </div>
+            <span>Thanks. You're on our mailing list.</span>
+          </div>
         </div>
 
-        <div>
-          <p>FOLLOW US</p>
-          <span>We want to hear from you!</span>
+        <div className="footer">
+          <div>
+            <p className="hed">PROJECT-ACCELERATOR</p>
+            {props.footer.description}
+          </div>
+
+          <div>
+            <p className="hed"> CONTACT US</p>
+            <p className="para">{props.footer.address}</p>
+            <p className="para">{props.footer.email}</p>
+            <p className="para">{props.footer.phone}</p>
+          </div>
+
+          <div>
+            <p className="hed">FOLLOW US</p>
+            <div className="social">
+              <a href={ props.footer.facebook} target="_blank">
+                <span>{facebookIcon}</span>
+              </a>
+              <a href={props.footer.twitter} target="_blank">
+                <span>{twitterIcon}</span>
+              </a>
+              <a href={props.footer.instagram} target="_blank">
+                <span>{instagramIcon}</span>
+              </a>
+              <a href={props.footer.youtube} target="_blank">
+                <span>{youtubeIcon}</span>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="para">Chat with our Virtual AI Bot(24/7 Live Agent Support)</div>
+            <button>CHAT NOW</button>
+          </div>
         </div>
 
-        <div>
-          {facebookIcon} {youtubeIcon} {instagramIcon} {twitterIcon}
+        <div className="footerBorder">
+          <div>
+            {" "}
+            Copyright © 2024 - 2025 Code Squanchers. All Rights Reserved
+          </div>
         </div>
-      </div>
-
-      <div className="footer">
-        <div>
-          <div>Chat with our Virtual AI Bot(24/7 Live Agent Support)</div>
-          <button>CHAT NOW</button>
-        </div>
-      </div>
-
-      <div className="footerBorder">
-        <div> Copyright © 2024 - 2025 Code Squanchers. All Rights Reserved</div>
-      </div>
-    </>
+      </>
+    )
   );
 };
 

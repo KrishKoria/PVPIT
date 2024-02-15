@@ -6,54 +6,25 @@
       "/PVPIT/img3.jpeg",
       "/PVPIT/img5.png",
       "/PVPIT/img6.png"
-    ],
-    "footer": {
-      "support": [
-        {
-          "name": "Online Help",
-          "url": "https://www.mi.com/in/service/help/#category_id=1&pagenum=1&channel=1"
-        },
-        {
-          "name": "Customer Service",
-          "url": "https://www.mi.com/in/service/online/"
-        },
-        {
-          "name": "Shipping FAQ",
-          "url": "https://www.mi.com/in/service/shipping/"
-        },
-        {
-          "name": "Service Centres",
-          "url": "https://www.mi.com/in/service/repair/"
-        },
-        {
-          "name": "Warrenty",
-          "url": "https://www.mi.com/in/service/warranty/"
-        },
-        {
-          "name": "Mi Exchange",
-          "url": "https://www.mi.com/in/miexchange/"
-        },
-        {
-          "name": "Bulk Order",
-          "url": "https://www.mi.com/in/bulkbuy/"
-        },
-        {
-          "name": "User Guide",
-          "url": "https://www.mi.com/in/service/userguide/"
-        },
-        {
-          "name": "Laptop Drivers",
-          "url": "https://www.mi.com/in/service/support/laptop-drivers.html"
-        },
-        {
-          "name": "Mi Screen Protect",
-          "url": "https://www.mi.com/in/service/miphoneprotection/#miscreenprotect"
-        },
-        {
-          "name": "Mi Extended Warranty",
-          "url": "https://www.mi.com/in/service/miextendedwarranty/"
-        }
-      ]
-    }
+    ]
+  },
+  "footer": {
+    "description": "Our platform offers a secure and confidential space for budding entrepreneurs to connect with potential investors, enabling them to share their innovative ideas exclusively with interested parties while maintaining complete privacy from the public eye. With robust privacy measures in place, entrepreneurs can confidently showcase their projects, fostering valuable connections and opportunities for growth.",
+
+    "address": "IIITP",
+
+    "email": "projectaccelerator@gmail.com",
+
+    "phone": "+91 7412589632",
+
+    "facebook": "https://www.facebook.com/",
+
+    "twitter": "https://twitter.com/",
+
+    "instagram": "https://www.instagram.com/",
+
+    "linkedin": "https://www.linkedin.com/",
+
+    "youtube": "https://www.youtube.com/"
   }
 }
