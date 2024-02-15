@@ -222,13 +222,13 @@
           }
     ],
     "banner": {
-          "start": ["../assets/images/im1-transformed.png", 
-          "../assets/images/im2.png",
-            "../assets/images/img3.png",
-            "../assets/images/im4.png",
-            "../assets/images/img5.png",
-            "../assets/images/img6.png"
-
+          "start": [
+            "../assets/im1-transformed.png", 
+            "../assets/im2.png",
+            "../assets/img3.png",
+            "../assets/im4.png",
+            "../assets/img5.png",
+            "../assets/img6.png"
           ],
           "end": [
                 {
