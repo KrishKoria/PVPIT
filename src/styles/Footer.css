@@ -13,7 +13,28 @@
   flex-direction: column;
 }
 
-.para, .hed {
+
+.footer > div > h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer > div > h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #ff477e;
+  height: 2px;
+  box-sizing: border-box;
+  width: 75px;
+}
+
+.para {
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 15px;
