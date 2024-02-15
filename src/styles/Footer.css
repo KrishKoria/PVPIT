@@ -30,7 +30,6 @@
   color: white;
 }
 
-/* Social Icons */
 .social svg {
   width: 24px;
   height: 24px;
@@ -46,107 +45,76 @@
   fill: rgb(0, 166, 255);
 }
 
-/* PreFooter */
-.PreFooter {
-  margin: 5vmax 0 0;
-  background-color: white;
-  padding: 1vmax;
-  padding-bottom: 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.PreFooter > div {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  color: rgba(66, 66, 66, 0.829);
-  cursor: pointer;
-}
-
-.PreFooter > div:hover svg {
-  fill: rgb(34, 34, 34);
-}
-
-.PreFooter > div:hover p {
-  color: rgb(19, 18, 18);
-}
-
-/*---------------- PreFooter2 ---------------*/
 .PreFooter2 {
   display: grid;
   height: 150px;
   grid-template-columns: repeat(4, 1fr);
+  margin: 50px;
 }
 
-.PreFooter2 > div {
-  display: flex;
-  flex-direction: column;
+.touch {
   justify-content: center;
   align-items: center;
 }
-
-.PreFooter2 > div > p {
+.p {
   color: rgba(0, 0, 0, 0.842);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.5vmax;
-  width: 18vmax;
-  margin: 0;
+  font-weight: bold;
+  width: 10vmax;
+  display: inline-flex;
+  gap: 10px;
 }
-
-.PreFooter2 > div > span {
-  color: rgba(51, 51, 51, 0.842);
-  width: 18vmax;
-  font-size: 1vmax;
-}
-
-.PreFooter2 > div > div > input {
-  border: none;
-  outline: none;
+.mail-input {
+  border-color: black;
+  border-width: 1px;
   padding: 0.5vmax 1vmax;
   background-color: rgb(255, 255, 255);
   font-size: 1vmax;
   width: 20.4vmax;
 }
-
-.PreFooter2 > div > div > button {
-  border: none;
-  padding: 0.5vmax;
-  background-color: rgb(255, 255, 255);
-  outline: none;
+.mailing-list{
+  padding-top: 10px;
 }
-
-.PreFooter2 > div > div {
-  border: 1px solid rgba(126, 126, 126, 0.493);
-}
-
-.PreFooter2 > div:nth-child(2) > span {
-  width: 22vmax;
-}
-
-.PreFooter2 > div:nth-child(3) {
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.PreFooter2 > div:nth-child(3) > p {
-  width: 14vmax;
-}
-
-.PreFooter2 > div:nth-child(3) > span {
-  width: 14vmax;
-}
-
-.PreFooter2 > div:nth-child(4) {
-  flex-direction: row;
-}
-
-.PreFooter2 > div:nth-child(4) > svg {
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
   cursor: pointer;
-  margin: 1vmax;
-  fill: rgba(138, 138, 138, 0.705);
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
 }
 
-.PreFooter2 > div:nth-child(4) > svg:hover {
-  fill: rgb(94, 94, 94);
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+

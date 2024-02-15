@@ -54,20 +54,25 @@ const Footer = (props) => {
     (
       <>
         <div className="PreFooter2">
-          <div>
+          <div className="touch">
             <p>LET'S STAY IN TOUCH</p>
             <span>Get updates on sales specials and more</span>
           </div>
           <div>
             <div>
+              <div className="p">
               <input
+                className="mail-input"
                 type="email"
                 name="email"
                 placeholder="Enter Email Address"
               />
-              <button>Submit</button>
+              <button className="button-5">Submit</button>
+              </div>
+              <div className="mailing-list">
+                <span>Enter Our Mailing List to get the Latest Affairs</span>
+              </div>
             </div>
-            <span>Thanks. You're on our mailing list.</span>
           </div>
         </div>
 
@@ -87,7 +92,7 @@ const Footer = (props) => {
           <div>
             <p className="hed">FOLLOW US</p>
             <div className="social">
-              <a href={ props.footer.facebook} target="_blank">
+              <a href={props.footer.facebook} target="_blank">
                 <span>{facebookIcon}</span>
               </a>
               <a href={props.footer.twitter} target="_blank">
@@ -103,7 +108,9 @@ const Footer = (props) => {
           </div>
 
           <div>
-            <div className="para">Chat with our Virtual AI Bot(24/7 Live Agent Support)</div>
+            <div className="para">
+              Chat with our Virtual AI Bot(24/7 Live Agent Support)
+            </div>
             <button>CHAT NOW</button>
           </div>
         </div>
