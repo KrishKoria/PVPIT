@@ -78,19 +78,19 @@ const Footer = (props) => {
 
         <div className="footer">
           <div>
-            <p className="hed">PROJECT-ACCELERATOR</p>
+            <h4>PROJECT-ACCELERATOR</h4>
             {props.footer.description}
           </div>
 
           <div>
-            <p className="hed"> CONTACT US</p>
+            <h4> CONTACT US</h4>
             <p className="para">{props.footer.address}</p>
             <p className="para">{props.footer.email}</p>
             <p className="para">{props.footer.phone}</p>
           </div>
 
           <div>
-            <p className="hed">FOLLOW US</p>
+            <h4>FOLLOW US</h4>
             <div className="social">
               <a href={props.footer.facebook} target="_blank">
                 <span>{facebookIcon}</span>
