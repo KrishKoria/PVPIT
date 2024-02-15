@@ -2,7 +2,6 @@
 
 
 import './App.css';
-// import PreNavbar from './components/PreNavbar';
 import Navbar from "./components/Navbar.jsx"
 import {  BrowserRouter as Router,Route,Routes } from "react-router-dom"
 import Slider from "./components/Slider.jsx"
@@ -13,7 +12,6 @@ import StarProduct from "./components/StarProduct.jsx"
 import HotAccessoriesMenu  from "./components/HotAccessoriesMenu.jsx"
 import HotAccessories from "./components/HotAccessories.jsx"
 import ProductReviews from "./components/ProductReviews.jsx"
-// import Videos from "./components/Videos.js"
 import Banner from "./components/Banner.jsx"
 import Footer from "./components/Footer.jsx"
 import NavOptios from "./components/NavOptios.jsx"
@@ -24,7 +22,6 @@ function App() {
 
   return (
   <Router>
-       {/* <PreNavbar/> */}
        <Navbar />
             
         <NavOptios miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle} home={data.home} audio={data.audio}  accessories={data.accessories}/>
