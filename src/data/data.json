@@ -223,12 +223,11 @@
     ],
     "banner": {
           "start": [
-            "../assets/im1-transformed.png", 
-            "../assets/im2.png",
-            "../assets/img3.png",
-            "../assets/im4.png",
-            "../assets/img5.png",
-            "../assets/img6.png"
+            "/PVPIT/im1.png",
+            "/PVPIT/im2.png",
+            "/PVPIT/img3.jpeg",
+            "/PVPIT/img5.png",
+            "/PVPIT/img6.png"
           ],
           "end": [
                 {
