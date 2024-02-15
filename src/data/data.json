@@ -222,12 +222,12 @@
           }
     ],
     "banner": {
-          "start": [
-"C:\\PVPIT\\images\\im1-transformed.png",
-"C:\\PVPIT\\images\\im2.png",
-"C:\\PVPIT\\images\\img3.jpeg",
-"C:\\PVPIT\\images\\im4.png",    
-"C:\\PVPIT\\images\\img5.png"          
+          "start": ["../assets/images/im1-transformed.png", 
+          "../assets/images/im2.png",
+            "../assets/images/img3.png",
+            "../assets/images/im4.png",
+            "../assets/images/img5.png",
+            "../assets/images/img6.png"
 
           ],
           "end": [
