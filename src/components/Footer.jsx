@@ -50,79 +50,57 @@ const instagramIcon = (
 
 const Footer = (props) => {
   return (
-    console.log(props),
-    (
-      <>
-        <div className="PreFooter2">
-          <div className="touch">
-            <p>LET'S STAY IN TOUCH</p>
-            <span>Get updates on sales specials and more</span>
-          </div>
-          <div>
-            <div>
-              <div className="p">
-              <input
-                className="mail-input"
-                type="email"
-                name="email"
-                placeholder="Enter Email Address"
-              />
-              <button className="button-5">Submit</button>
-              </div>
-              <div className="mailing-list">
-                <span>Enter Our Mailing List to get the Latest Affairs</span>
-              </div>
-            </div>
+    <>
+      <div className="PreFooter2"></div>
+
+      <div className="footer">
+        <div>
+          <h4>PROJECT-ACCELERATOR</h4>
+          {props.footer.description}
+        </div>
+
+        <div>
+          <h4> CONTACT US</h4>
+          <p className="para">{props.footer.address}</p>
+          <p className="para">{props.footer.email}</p>
+          <p className="para">{props.footer.phone}</p>
+        </div>
+
+        <div>
+          <h4>FOLLOW US</h4>
+          <div className="social">
+            <a href={props.footer.facebook} target="_blank">
+              <span>{facebookIcon}</span>
+            </a>
+            <a href={props.footer.twitter} target="_blank">
+              <span>{twitterIcon}</span>
+            </a>
+            <a href={props.footer.instagram} target="_blank">
+              <span>{instagramIcon}</span>
+            </a>
+            <a href={props.footer.youtube} target="_blank">
+              <span>{youtubeIcon}</span>
+            </a>
           </div>
         </div>
 
-        <div className="footer">
-          <div>
-            <h4>PROJECT-ACCELERATOR</h4>
-            {props.footer.description}
+        <div className="para">
+        Subscribe to our mailing list:
+        <input type="email" placeholder="Enter your email" className="form-field" />
+        <button>SUBSCRIBE</button>
+      </div>
+        <div>
+          <div className="para">
+            Chat with our Virtual AI Bot(24/7 Live Agent Support)
           </div>
-
-          <div>
-            <h4> CONTACT US</h4>
-            <p className="para">{props.footer.address}</p>
-            <p className="para">{props.footer.email}</p>
-            <p className="para">{props.footer.phone}</p>
-          </div>
-
-          <div>
-            <h4>FOLLOW US</h4>
-            <div className="social">
-              <a href={props.footer.facebook} target="_blank">
-                <span>{facebookIcon}</span>
-              </a>
-              <a href={props.footer.twitter} target="_blank">
-                <span>{twitterIcon}</span>
-              </a>
-              <a href={props.footer.instagram} target="_blank">
-                <span>{instagramIcon}</span>
-              </a>
-              <a href={props.footer.youtube} target="_blank">
-                <span>{youtubeIcon}</span>
-              </a>
-            </div>
-          </div>
-
-          <div>
-            <div className="para">
-              Chat with our Virtual AI Bot(24/7 Live Agent Support)
-            </div>
-            <button>CHAT NOW</button>
-          </div>
+          <button>CHAT NOW</button>
         </div>
 
-        <div className="footerBorder">
-          <div>
-            {" "}
-            Copyright © 2024 - 2025 Code Squanchers. All Rights Reserved
-          </div>
-        </div>
-      </>
-    )
+      </div>
+      <div className="footerBorder">
+        <div> Copyright © 2024 - 2025 Code Squanchers. All Rights Reserved</div>
+      </div>
+    </>
   );
 };
 

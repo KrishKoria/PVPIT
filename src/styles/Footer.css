@@ -67,15 +67,15 @@
 }
 
 .PreFooter2 {
-  display: grid;
+  display: inline-grid;
   height: 150px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin: 50px;
 }
 
 .touch {
   justify-content: center;
-  align-items: center;
+  align-items: right;
 }
 .p {
   color: rgba(0, 0, 0, 0.842);
@@ -139,3 +139,10 @@
   transform: translateY(0);
 }
 
+.form-field {
+	margin: 10px 0 10px 0;
+	padding: 15px;
+	font-size: 16px;
+	border: 0;
+	font-family: "Roboto", sans-serif;
+  }
