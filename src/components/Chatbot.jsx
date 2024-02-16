@@ -13,7 +13,7 @@ function ChatBot() {
       // Here you can add logic to send the user's message to your AI backend and get the response
       // For simplicity, let's assume the bot replies instantly with a hardcoded response
       setTimeout(() => {
-        setMessages([...messages, { text: 'This is a sample response from the AI.', sender: 'bot' }]);
+        setMessages([...messages, { text: 'Hi there, How may I help you !', sender: 'bot' }]);
       }, 500);
     }
   };
