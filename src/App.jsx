@@ -26,10 +26,6 @@ function App() {
       </BrowserRouter>
       {showSlider && <Slider start={data.banner.start} />}
 
-      {/* <div >
-        <h1>Entrepreneurs</h1>
-      </div> */}
-
       <Heading text={"Our Investors"} />
       
       <Offers offer={data.offer}/>
