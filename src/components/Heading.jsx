@@ -6,7 +6,7 @@ const Heading = ({text}) => {
         <div className="heading" >
             <div></div>
             <p>{text}</p>
-            <div></div>
+            <div className="underline"></div>
             
         </div>
     )
