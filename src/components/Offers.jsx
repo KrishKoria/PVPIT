@@ -8,7 +8,7 @@ const Offers = ({offer}) => {
     return (
         <div className="offers"> 
         {offer.map((item,index)=>(
-        <Offer key={item.image} index={index} src={item.image} description={item.description} title={item.title} />
+        <Offer key={item.image} index={index} src={item.image} description={item.description} title={item.title} wiki={item.wiki} />
         ))}
     </div>
     )
