@@ -1,9 +1,26 @@
 import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
-import React from 'react'
-
-const Offer = ({src,link,index}) => {
-    return     <a href={link}> <img src={src} alt={`${index} offer`} /></a>
-    
+import React from "react";
+import "../styles/Offers.css"
+import {
+    MDBCard,
+    MDBCardBody,
+    MDBCardTitle,
+    MDBCardText,
+    MDBCardImage,
+    MDBBtn
+  } from 'mdb-react-ui-kit';
+const Offer = ({src, description, title}) => {
+    return (
+        <MDBCard>
+          <MDBCardImage src={src} width={398} height={240} style={{objectFit: "fill"}}  position='top' alt='...' />
+          <MDBCardBody>
+            <MDBCardTitle>{title}</MDBCardTitle>
+            <MDBCardText>
+              {description}
+            </MDBCardText>
+            <MDBBtn href='#'>Read More</MDBBtn>
+          </MDBCardBody>
+        </MDBCard>
+      );
 }
-
-export default Offer
+export default Offer;

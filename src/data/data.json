@@ -26,5 +26,22 @@
     "linkedin": "https://www.linkedin.com/",
 
     "youtube": "https://www.youtube.com/"
-  }
+  },
+  "offer": [
+    {
+          "title": "Aman Gupta",
+          "image": "https://imgs.search.brave.com/A0T3RwpGQnuOIfNbtVdEJ2ev_zKA2A_oOGZeBo49eJo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/bGVhZGVyYmlvZ3Jh/cGh5LmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMy8wOS9z/aHpyZnhnLTc1MHgz/NzUucG5n",
+          "description": "In the bustling streets of Mumbai, Aman Gupta embarked"
+      },
+    {
+          "title": "Ronnie Screwvala",
+          "image": "https://imgs.search.brave.com/KKg4IkSQdUEo8eTh_VRe_jud-wXYri1YawAys1nkTrU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMueW91cnN0b3J5/LmNvbS9jcy8yLzk2/ZWFiZTkwMzkyMjEx/ZWI5M2YxODMxOWU4/YzA3YTc0L0ltYWdl/ZGRnbC0xNzAyNjM2/NzU4MTc3LmpwZz93/PTExNTImZm09YXV0/byZhcj0yOjEmbW9k/ZT1jcm9wJmNyb3A9/ZmFjZXM",
+            "description": "Ronnie Screwvala, a visionary entrepreneur and philanthropist"
+    },
+    {
+          "title": "Anil Ambani",
+          "image": "https://imgs.search.brave.com/T55ZHxco5__GR6JAA9vKXbNyVNBEWQXgZzz2EuF1lr8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTA5/NjUwNTkvcGhvdG8v/aW4tdGhpcy1waWN0/dXJlLXRha2VuLTI5/LWphbnVhcnktMjAw/NC10aGUtdmljZS1j/aGFpcm1hbi1vZi1y/ZWxpYW5jZS1pbmR1/c3RyaWVzLWluZGlh/cy1sYXJnZXN0Lmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1o/TllPTDNMckZjcXNX/NDBhclB6TlJvZ2dt/NlpNNDkwNUhJdXpx/djVqbVZVPQ",
+          "description": "Anil Ambani, fallen Indian business magnate and the the former chairman of Reliance Group"
+    }
+    ]
 }

@@ -4,13 +4,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Slider from "./components/Slider.jsx";
 import data from "./data/data.json";
 import Footer from "./components/Footer.jsx";
-import {Form} from "./components/Form.jsx";
+import { Form } from "./components/Form.jsx";
 import React from "react";
-
+import Offers from "./components/Offers.jsx";
 function App() {
   let routes = (
     <Routes>
-      <Route path="/PVPIT/form" element={<Form />} no exact ={true} />
+      <Route path="/PVPIT/form" element={<Form />} />
     </Routes>
   );
 
@@ -24,6 +24,7 @@ function App() {
         <main>{routes}</main>
       </BrowserRouter>
       {showSlider && <Slider start={data.banner.start} />}
+      <Offers offer={data.offer}/>
       <Footer footer={data.footer} />
     </React.Fragment>
   );

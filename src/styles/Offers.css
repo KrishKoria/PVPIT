@@ -1,15 +1,45 @@
-.offersSection{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1vmax;
-  }
-
-  .offersSection   img{
-    margin: 0 1vmax;
-    transition: all 0.5s;
+/* Offers.css */
+.offers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+.MDBCard {
+  width: 398px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
 
-.offersSection   img:hover{
-    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
-  }
+.MDBCard:hover {
+  transform: scale(1.05);
+}
+
+.MDBCardImage {
+  height: 150px;
+  object-fit: cover;
+}
+
+.MDBCardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.MDBCardTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.MDBCardText {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.MDBBtn {
+  align-self: flex-end;
+  margin-top: 10px;
+}
