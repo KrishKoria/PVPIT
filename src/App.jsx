@@ -24,6 +24,7 @@ function App() {
         <main>{routes}</main>
       </BrowserRouter>
       {showSlider && <Slider start={data.banner.start} />}
+      
       <Offers offer={data.offer}/>
       <Footer footer={data.footer} />
     </React.Fragment>
