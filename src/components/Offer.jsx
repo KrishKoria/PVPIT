@@ -12,7 +12,7 @@ import {
 const Offer = ({src, description, title}) => {
     return (
         <MDBCard>
-          <MDBCardImage src={src} width={400} height={240} style={{objectFit: "contain"}}  position='top' alt='...' />
+          <MDBCardImage src={src} width={400} height={240} style={{objectFit: "fill"}}  position='top' alt='...' />
           <MDBCardBody>
             <MDBCardTitle>{title}</MDBCardTitle>
             <MDBCardText>
