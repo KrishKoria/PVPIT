@@ -7,7 +7,7 @@ import Footer from "./components/Footer.jsx";
 import { Form } from "./components/Form.jsx";
 import React from "react";
 import Offers from "./components/Offers.jsx";
-// import Heading from "./components/Heading.jsx";
+import Heading from "./components/Heading.jsx";
 function App() {
   let routes = (
     <Routes>
@@ -26,9 +26,11 @@ function App() {
       </BrowserRouter>
       {showSlider && <Slider start={data.banner.start} />}
 
-      <div>
+      {/* <div >
         <h1>Entrepreneurs</h1>
-      </div>
+      </div> */}
+
+      <Heading text={"Our Investors"} />
       
       <Offers offer={data.offer}/>
       <Footer footer={data.footer} />
