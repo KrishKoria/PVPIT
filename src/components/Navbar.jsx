@@ -11,7 +11,7 @@ const Navbar = () => {
         </a>
       </div>
       <a className="navlinks" href="/PVPIT/">Home</a>
-      <a className="navlinks" href="/PVPIT/">Join us</a>
+      <a className="navlinks" href="/PVPIT/form">Join us</a>
       <a className="navlinks" href="/PVPIT/">Apply for a meet</a>
       <div className="searchbox">
        <input type="text" name="search" placeholder="Search" />

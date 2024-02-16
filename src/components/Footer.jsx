@@ -63,6 +63,7 @@ const Footer = (props) => {
 
   return (
     <>
+<<<<<<< HEAD
       {isChatBotOpen && <ChatBot onClose={closeChatBot} />}
 
       <div className="PreFooter2">
@@ -84,10 +85,43 @@ const Footer = (props) => {
             <div className="mailing-list">
               <span>Enter Our Mailing List to get the Latest Affairs</span>
             </div>
+=======
+      <div className="PreFooter2"></div>
+
+      <div className="footer">
+        <div>
+          <h4>PROJECT-ACCELERATOR</h4>
+          {props.footer.description}
+        </div>
+
+        <div>
+          <h4> CONTACT US</h4>
+          <p className="para">{props.footer.address}</p>
+          <p className="para">{props.footer.email}</p>
+          <p className="para">{props.footer.phone}</p>
+        </div>
+
+        <div>
+          <h4>FOLLOW US</h4>
+          <div className="social">
+            <a href={props.footer.facebook} target="_blank">
+              <span>{facebookIcon}</span>
+            </a>
+            <a href={props.footer.twitter} target="_blank">
+              <span>{twitterIcon}</span>
+            </a>
+            <a href={props.footer.instagram} target="_blank">
+              <span>{instagramIcon}</span>
+            </a>
+            <a href={props.footer.youtube} target="_blank">
+              <span>{youtubeIcon}</span>
+            </a>
+>>>>>>> e28513d795778ac5cbc1a8996222b7278421b162
           </div>
         </div>
       </div>
 
+<<<<<<< HEAD
       <div className="footer">
         <div>
           <h4>PROJECT-ACCELERATOR</h4>
@@ -116,9 +150,21 @@ const Footer = (props) => {
             <a href={props.footer.youtube} target="_blank" rel="noopener noreferrer">
               <span>{youtubeIcon}</span>
             </a>
+=======
+        <div className="para">
+        Subscribe to our mailing list:
+        <input type="email" placeholder="Enter your email" className="form-field" />
+        <button>SUBSCRIBE</button>
+      </div>
+        <div>
+          <div className="para">
+            Chat with our Virtual AI Bot(24/7 Live Agent Support)
+>>>>>>> e28513d795778ac5cbc1a8996222b7278421b162
           </div>
+          <button>CHAT NOW</button>
         </div>
 
+<<<<<<< HEAD
         <div>
           <div className="para">
             Chat with our Virtual AI Bot(24/7 Live Agent Support)
@@ -132,6 +178,11 @@ const Footer = (props) => {
           {" "}
           Copyright © 2024 - 2025 Code Squanchers. All Rights Reserved
         </div>
+=======
+      </div>
+      <div className="footerBorder">
+        <div> Copyright © 2024 - 2025 Code Squanchers. All Rights Reserved</div>
+>>>>>>> e28513d795778ac5cbc1a8996222b7278421b162
       </div>
     </>
   );
