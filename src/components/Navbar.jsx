@@ -41,6 +41,7 @@ const Navbar = ({ user, handleLogin, handleLogout }) => {
             alt="User"
             className="user-avatar"
             onClick={handleLogout}
+            width={"50px"} height={"50px"}
             title="Click to logout"
           />
         )}
